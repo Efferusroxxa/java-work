@@ -1,7 +1,7 @@
 
 const counter = document.getElementById("counter")
-const increment = document.getElementById("increment")
-const decrement = document.getElementById("decrement")
+const increment = document.getElementById("Increment")
+const decrement = document.getElementById("Decrement")
 
 let count = 0;
 
@@ -17,20 +17,6 @@ increment.addEventListener("click", ()=>{
         count--;
         counter.textContent = count;
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // const button = document.getElementById("myButton");
@@ -51,17 +37,11 @@ increment.addEventListener("click", ()=>{
 // });
 
 
-
-
-
 // Event Delegation
 // const list = document.getElementById("list");
 // list.addEventListener("click", (event)=>{
 // console.log(`event clicked: ${event.target.textContent}`)
 // })
-
-
-
 
 // const item1 = document.getElementById("item-1");
 // const item2 = document.getElementById("item-2");
@@ -91,17 +71,6 @@ increment.addEventListener("click", ()=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // const parent =document.getElementById("parent");
 // const child =document.getElementById("child");
 
@@ -124,16 +93,6 @@ increment.addEventListener("click", ()=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
 // const form = document.getElementById("myForm");
 // const input = document.getElementById("name");
 // console.log(form)
@@ -146,20 +105,6 @@ increment.addEventListener("click", ()=>{
 //     event.preventDefault()
 //     console.log("form submitted" , event.key);
 //  })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -177,14 +122,6 @@ increment.addEventListener("click", ()=>{
 // input.addEventListener("keyup", (e)=>{
 // console.log(`Key Released: ${e.key}`)
 // })
-
-
-
-
-
-
-
-
 
 
 
